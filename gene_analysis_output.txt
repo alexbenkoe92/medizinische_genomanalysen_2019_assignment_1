@@ -1,0 +1,30 @@
+Assignment 1
+
+Available Attributes of Class 'Assignment1':
+
+['alignfile', 'bamfile', 'chromosome', 'exons', 'gene', 'gene_avg_cov', 'genome_reference', 'print_summary', 'proper_reads', 'reads', 'reads_indel', 'reads_mapped', 'start', 'stop', 'uscs_file']
+
+Gene Symbol: KCNE1
+
+Genomic Region:
+	Located on: chr21
+	Start: 34446687
+	Stop: 34459938
+
+Sam Header:
+	VN (Format version): 1.0
+	SO (Sorting order of Alignments): unsorted
+
+Number of Exons: 3
+
+Properly Paired Reads: 469
+
+Amount of Reads with Indels: 7
+
+Number of Mapped Reads: 472
+
+Total Average Coverage: 9.56
+
+Average Gene Coverage: 1.29
+
+Done with assignment 1
