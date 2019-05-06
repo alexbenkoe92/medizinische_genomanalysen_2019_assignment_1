@@ -2,7 +2,6 @@ import mysql.connector
 import pysam
 from pathlib import Path
 import numpy as np
-import subprocess
 
 __author__ = 'Alexander Benkö'
 
@@ -64,7 +63,7 @@ class Assignment1:
         # SELECT FIRST ENTRY ONLY
         with open(self.uscs_file, "r") as fh:
             for row in fh:
-                if "KCNE1" in row:
+                if self.gene in row:
                     row_split = row.replace(")","").replace("(","").replace("'","")
                     row_split = row_split.split(", ")
                     break
